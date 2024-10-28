@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/wfhh-tools/static/css/main.f855e6bc.css",
-    "main.js": "/wfhh-tools/static/js/main.7f2dffc2.js",
+    "main.js": "/wfhh-tools/static/js/main.aad51947.js",
     "static/js/453.19c48e23.chunk.js": "/wfhh-tools/static/js/453.19c48e23.chunk.js",
     "static/media/logo.svg": "/wfhh-tools/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/wfhh-tools/index.html",
     "main.f855e6bc.css.map": "/wfhh-tools/static/css/main.f855e6bc.css.map",
-    "main.7f2dffc2.js.map": "/wfhh-tools/static/js/main.7f2dffc2.js.map",
+    "main.aad51947.js.map": "/wfhh-tools/static/js/main.aad51947.js.map",
     "453.19c48e23.chunk.js.map": "/wfhh-tools/static/js/453.19c48e23.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.7f2dffc2.js"
+    "static/js/main.aad51947.js"
   ]
 }
