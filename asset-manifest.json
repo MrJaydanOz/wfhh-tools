@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wfhh-tools/static/css/main.5664b695.css",
-    "main.js": "/wfhh-tools/static/js/main.a57137bc.js",
+    "main.css": "/wfhh-tools/static/css/main.558424ab.css",
+    "main.js": "/wfhh-tools/static/js/main.28cfee54.js",
     "static/js/453.19c48e23.chunk.js": "/wfhh-tools/static/js/453.19c48e23.chunk.js",
     "index.html": "/wfhh-tools/index.html",
-    "main.5664b695.css.map": "/wfhh-tools/static/css/main.5664b695.css.map",
-    "main.a57137bc.js.map": "/wfhh-tools/static/js/main.a57137bc.js.map",
+    "main.558424ab.css.map": "/wfhh-tools/static/css/main.558424ab.css.map",
+    "main.28cfee54.js.map": "/wfhh-tools/static/js/main.28cfee54.js.map",
     "453.19c48e23.chunk.js.map": "/wfhh-tools/static/js/453.19c48e23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5664b695.css",
-    "static/js/main.a57137bc.js"
+    "static/css/main.558424ab.css",
+    "static/js/main.28cfee54.js"
   ]
 }
