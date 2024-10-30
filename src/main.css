@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
 body
 {
     margin: 0pt;
@@ -5,9 +7,15 @@ body
     background-color: #333333;
     color: white;
 
-    font-family: Lexend, serif;
+    font-family: Lexend, sans-serif;
 
     user-select: none;
+}
+
+*
+{
+    font-family: Lexend, serif;
+    letter-spacing: initial;
 }
 
 code
@@ -15,43 +23,94 @@ code
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.button
+.mark, .panel, .input, .block, .button
 {
     padding-inline: 8pt;
-    padding-block: 2pt;
+    padding-block: 1pt;
     
+    color: white;
+    border-radius: 20pt;
+    
+    font-size: 12pt;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    
+    z-index: -1;
+}
+.input
+{
+    letter-spacing: inherit;
+}
+.panel, .input, .block, .button
+{
+    margin: -2pt;
+    
+    border: 4pt black solid;
+    
+    z-index: 1;
+}
+.block, .button
+{
     display: flex;
     align-items: center;
     justify-content: center;
     
-    color: white;
-    border: 4pt black solid;
-    border-radius: 32pt;
-    box-shadow: 6pt 6pt black, inset 0 0 black;
+    box-shadow: 6pt 6pt 0 black, inset 0 0 0 black;
     
-    font-size: 16pt;
-    font-weight: 500;
+    transform: translate(-1pt, -1pt);
+
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    text-align: center;
     text-decoration: none;
 
     background-clip: border-box;
     background-repeat: no-repeat;
 }
 
-.button:hover, .button:focus-visible
+.mark.large, .panel.large, .input.large, .block.large, .button.large
 {
-    filter: brightness(120%);
+    padding-inline: 6pt;
+    padding-block: 1pt;
     
-    box-shadow: 8pt 8pt black, inset 0 0 black;
+    font-size: 16pt;
+    font-weight: 500;
 }
 
-.button:active
+.mark.mega, .panel.mega, .input.mega, .block.mega, .button.mega
 {
-    transform: translate(2pt, 2pt);
+    padding-inline: 8pt;
+    padding-block: 2pt;
+    
+    font-size: 32pt;
+    font-weight: 500;
+}
 
+.input:hover, .input:focus-visible, .button:hover, .button:focus-visible
+{
+    filter: brightness(120%);
+}
+.button:hover, .button:focus-visible
+{
+    box-shadow: 6pt 6pt 0 2pt black, inset 0 0 0 black;
+}
+
+.input:active, .button:active
+{
     filter: brightness(80%);
 
-    box-shadow: 0 0 black, inset 2pt 2pt black;
+    box-shadow: 0 0 0 black, inset 2pt 2pt 0 black;
+}
+.button:active
+{
+    transform: translate(1pt, 1pt);
+
+    box-shadow: 0 0 0 black, inset 4pt 4pt 0 black;
+}
+
+.normal-text
+{
+    letter-spacing: initial;
+    text-transform: none;
 }
