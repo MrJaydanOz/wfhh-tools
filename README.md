@@ -1,46 +1,19 @@
-# Getting Started with Create React App
+# WFHH Tools (West Footscray Haunted House Tools)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a mobile web app made with React and Firebase designed to easily log the arrival of every single 
+customer of West Footscray's Haunted House.
 
-## Available Scripts
+## How it works
 
-In the project directory, you can run:
+- First at the bottom of the page you define your ID (it can be just your name) and a current time. The
+current time should be synced to the surveillance footage time.
+- Next press '`TAP TO START`' to make the timer start counting.
+- Now that the timer is counting and authourised, you can now press one of the '`+1`' buttons and the time
+of when they were pressed is recorded in a remote database.
+- Later when you want to retrive all the button presses you can scroll to the bottom and press
+'`DOWNLOAD DATABASE`'.
 
-### `npm start`
+Below the '`+1`' buttons are some additional inputs to allow the adding of tags to make the next entry more
+specific. The pink one allows adding a comment and the black one allows setting the camera number.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+It's available to view [here](https://mrjaydanoz.github.io/wfhh-tools/) with the database as read only.
